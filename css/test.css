@@ -23,7 +23,7 @@ a {
   margin-right: 50px;
   text-decoration: none;
   color: lightgreen;
-  background-color: rebeccapurple;
+  background: rebeccapurple;
   padding: 5px 15px 5px 15px;
   font-weight: 700;
 }
@@ -36,6 +36,9 @@ ul {
 ul > li {
   margin-right: 30px;
 }
+ul > li:last-child {
+  margin-right: 0;
+}
 .box {
   display: flex;
   margin-bottom: 30px;
@@ -44,12 +47,18 @@ ul > li {
 }
 .aside {
   padding: 10px 20px;
-  background-color: lavender;
+  background: lavender;
 }
-.section {
+.main {
   padding: 5px 20px;
   margin-bottom: 20px;
-  background-color: lavender;
+  background: lavender;
+}
+.link {
+  color: white;
+  padding: 8px 15px 8px 15px;
+  margin-left: 10px;
+  background: rebeccapurple;
 }
 .post {
   padding-bottom: 20px;
